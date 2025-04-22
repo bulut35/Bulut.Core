@@ -4,7 +4,23 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>bulutbusiness_core_icon.ico</ApplicationIcon>
+    <PackageIcon>bulutbusiness_core_highres_icon.png</PackageIcon>
+    <Title>Bulut Business Core Project</Title>
+    <Version>1.0.0</Version>
+    <Copyright>Copyright 2025</Copyright>
+    <Description> Tüm projelerde kullanılabilecek JWT Repository vs gibi implementasyonların yapıldıgı .Net Core 9 ile oluşturulmuş Core Projesi</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <NeutralLanguage>tr</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\bulutbusiness_core_highres_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
 	<PackageReference Include="AWSSDK.Translate" Version="3.7.400.70" />
@@ -26,6 +42,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.8.0" />
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
