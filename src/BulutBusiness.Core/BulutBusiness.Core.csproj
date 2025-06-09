@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\bulutbusiness_core_highres_icon.png">
+    <None Include="bulutbusiness_core_highres_icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
