@@ -7,7 +7,7 @@
     <ApplicationIcon>bulutbusiness_core_icon.ico</ApplicationIcon>
     <PackageIcon>bulutbusiness_core_highres_icon.png</PackageIcon>
     <Title>Bulut Business Core Project</Title>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Copyright>Copyright 2025</Copyright>
     <Description> Tüm projelerde kullanılabilecek JWT Repository vs gibi implementasyonların yapıldıgı .Net Core 9 ile oluşturulmuş Core Projesi</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
